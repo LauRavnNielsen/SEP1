@@ -1,0 +1,146 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+*{
+    box-sizing: border-box;
+}
+
+.thumbnail {
+    position: relative;
+}
+#tech{
+    background-color: white;
+    
+    
+    
+}
+
+#footer{
+    background-color: grey;
+    color: white;
+}
+#tech p{
+    color: black;
+}
+h2{
+    color: black;
+    
+    
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.caption p {
+    font-size: 4em;
+    text-decoration: overline;
+    font-family: monospace;
+    
+}
+h1{
+    margin-top: -60px;
+}
+.selling{
+    background: linear-gradient(white, black);
+    
+}
+.selling img {
+    
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+.col-md-12  p, center {
+    
+    font-size: 1.4em;
+    font-family: sans-serif;
+    
+}
+
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+#footer li {
+    list-style: none;
+
+}
+
+#footer {
+    /*background-color: #343140;*/
+    background-color: dimgray;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-top: 2px solid lightblue;
+    bottom: 0;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: darkgoldenrod;
+}
+
+#footer .social img:hover {
+    width: 55px;
+}
+
+#footer .social {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer .social p {
+    padding-left: 7px
+}
+
+#footer p {
+    color: white;
+}
+
+
+
+@media screen and (max-width:450px) {
+    #footer ul {
+        padding-left: 10px;
+    }
+    #footer img {
+        width: 30px;
+        padding: 2px;
+    }
+    #footer {
+        padding-bottom: 0;
+    }
+}
+
+
